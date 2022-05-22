@@ -25,7 +25,7 @@
     else {
       //echo "connection successful";
     }
-    $sql = "SELECT fname, lname, age, sexuality, plength FROM residents"; 
+    $sql = "SELECT fname, lname, age, sexuality FROM residents"; 
 
     $result = $conn->query("SELECT * FROM residents");
 
